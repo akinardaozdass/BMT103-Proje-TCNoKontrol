@@ -1,0 +1,3 @@
+C:/Users/akina_ze0ujv6/CLionProjects/BMT103-Proje-TCNoKontrol/cmake-build-debug/CMakeFiles/BMT103_Proje_TCNoKontrol.dir
+C:/Users/akina_ze0ujv6/CLionProjects/BMT103-Proje-TCNoKontrol/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/akina_ze0ujv6/CLionProjects/BMT103-Proje-TCNoKontrol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
