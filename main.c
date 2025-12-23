@@ -4,7 +4,8 @@ int tc_rakamlari[11];
 //Bursiyer bilgilerini tutan yapı
 struct BURSIYER_BILGILERI {
     char ad_soyad[100];
-    char tc_no[12];};
+    char tc_no[12];
+};
 //TC kimlik numaralarını kontrol eden fonksiyon
 int tc_kontrol(char tc_no[]) {
     int ilkOntoplam =0, tekSayiToplam=0, ciftSayiToplam=0;
