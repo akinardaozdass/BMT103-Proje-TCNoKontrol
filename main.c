@@ -23,7 +23,7 @@ int tc_kontrol(char tc_no[]) {
         ilkOntoplam+=tc_rakamlari[i];
     }
     if (tc_rakamlari[10]!=ilkOntoplam%10) return 0;
-    //11. basamak kontrolü
+    //10. basamak kontrolü
     for (int i=0; i<9; i++) {
         if (i%2==0) {
             tekSayiToplam += tc_rakamlari[i];
