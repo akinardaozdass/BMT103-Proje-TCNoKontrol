@@ -16,12 +16,14 @@ int tc_kontrol(char tc_no[]) {
         if (tc_no[i] < '0' || tc_no[i] > '9') return 0;
         tc_rakamlari[i] = tc_no[i] - '0';
     }
-    //TC numarasının ilk 10 basamak toplamının birler basamağı 11. Basamağa eşit mi?
+    //TC numarasının ilk hanesi 0'a eşit mi?
     if (tc_rakamlari[0]==0) return 0;
+    //TC numarasının ilk 10 basamak toplamının birler basamağı 11. Basamağa eşit mi?
     for (int i=0;i<10;i++) {
         ilkOntoplam+=tc_rakamlari[i];
     }
     if (tc_rakamlari[10]!=ilkOntoplam%10) return 0;
+    //11. basamak kontrolü
     for (int i=0; i<9; i++) {
         if (i%2==0) {
             tekSayiToplam += tc_rakamlari[i];
